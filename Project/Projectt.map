@@ -1,0 +1,51 @@
+
+AVRASM ver. 2.1.42  J:\sk3998h\PeterSmithCrswrk\cswrk111\Projectt\Projectt.asm Tue Apr 19 12:20:19 2016
+
+
+EQU  SPH          0000003e
+EQU  SPL          0000003d
+EQU  RAMEND       0000025f
+EQU  PORTC        00000015
+EQU  PINC         00000014
+EQU  DDRC         00000014
+EQU  PORTB        00000018
+EQU  PINB         00000016
+EQU  DDRB         00000017
+EQU  PORTD        00000012
+EQU  PIND         00000010
+EQU  DDRD         00000011
+EQU  DDRA         0000001a
+EQU  PINA         00000019
+DEF  leds         r19
+DEF  temp         r20
+DEF  btn          r22
+DEF  segment      r18
+DEF  speed        r24
+DEF  display      r23
+CSEG sover        0000000d
+CSEG reset        00000016
+CSEG main         0000001a
+CSEG holdloop     0000006e
+CSEG main2        0000001b
+CSEG rloop        00000071
+CSEG TLeft        00000028
+CSEG SLeft        00000038
+CSEG BLeft        00000048
+CSEG TRight       00000030
+CSEG SRight       00000040
+CSEG BRight       00000050
+CSEG Tl           00000029
+CSEG delay        00000080
+CSEG fire         00000058
+CSEG T2           00000031
+CSEG Sl           00000039
+CSEG S2           00000041
+CSEG Bl           00000049
+CSEG B2           00000051
+CSEG hit          0000005e
+CSEG buzzloop     00000062
+CSEG buzzer       00000066
+CSEG smallDelay   00000087
+CSEG loop2        00000081
+CSEG loop1        00000082
+CSEG delayBuzz    00000088

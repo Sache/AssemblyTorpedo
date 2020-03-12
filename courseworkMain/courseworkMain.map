@@ -1,0 +1,47 @@
+
+AVRASM ver. 2.1.42  J:\sk3998h\PeterSmithCrswrk\cswrk111\courseworkMain\courseworkMain.asm Tue Apr 19 11:36:36 2016
+
+
+EQU  SPH          0000003e
+EQU  SPL          0000003d
+EQU  RAMEND       0000025f
+EQU  DDRA         0000001a
+EQU  PINA         00000019
+EQU  PORTC        00000015
+EQU  DDRC         00000014
+EQU  PORTB        00000018
+EQU  DDRB         00000017
+EQU  PORTD        00000012
+EQU  DDRD         00000011
+DEF  leds         r30
+DEF  temp         r16
+DEF  YL           r20
+DEF  YH           r21
+DEF  ZL           r22
+DEF  ZH           r23
+DEF  displayhex   r26
+CSEG sover        0000000d
+CSEG BOSSofLeds   00000010
+CSEG RandomG      00000056
+CSEG SHIPS        00000011
+CSEG TurnLeft     00000017
+CSEG TurnRightLED2 00000030
+CSEG TurnLeftLED3 00000038
+CSEG ll1          00000018
+CSEG delay        0000006c
+CSEG checkButtons 00000048
+CSEG buzzer       00000064
+CSEG TurnRight    00000020
+CSEG rr1          00000021
+CSEG TurnLeftLED2 00000028
+CSEG ll2          00000029
+CSEG rr2          00000031
+CSEG ll3          00000039
+CSEG TurnRightLED3 00000040
+CSEG rr3          00000041
+CSEG shootDown    0000004e
+CSEG buzzloop     00000051
+CSEG smallDelay   00000073
+CSEG loop2        0000006d
+CSEG loop1        0000006e
+CSEG delayBuzz    00000074
